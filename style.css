@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Mooli&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(253, 253, 253);
+    font-size: 22px; 
+}
+
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 40px;
+}
+
+header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url("boy-looking-moon-night.jpg")
+}
+.navbar-brand{
+    letter-spacing: 3px;
+    font-family: 'poppins',sans-serif;
+    
+}
+.title{
+    margin: 8% 0 0 10%;
+    width: 600px;
+    font-weight: bold;
+    color: yellow;
+    font-family: 'poppins'; 
+    letter-spacing: .5px; 
+}
+.p{
+    width: 600px;
+    color: #fff;
+    margin-left: 10% ;
+    margin-top: 3px;
+    font-style: italic;
+    font-size: medium;
+}
+.btn-warning{
+    margin-left: 10%;
+    padding: 5px;
+    border: none;
+    margin-top: 5px;
+    transition: 2s;
+}
+.btn-warning:hover{
+    cursor: pointer;
+    background-color: rgb(229, 235, 227);
+}
+ul,li{
+    padding: 8px;
+}
+footer{
+    background-color: #111;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100;
+        text-align: center;
+        margin: 10px;
+    }
+}
